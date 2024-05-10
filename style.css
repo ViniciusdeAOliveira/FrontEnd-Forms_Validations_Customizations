@@ -209,3 +209,33 @@ footer .button {
 input:invalid {
     border: 1px solid #FF1010;
 }
+
+@media screen and (max-width: 768px) {
+    .page {
+        width: 100%;
+        padding: 0 16px;
+    }
+
+    header {
+        width: 100%;
+        text-align: center;
+    }
+
+    form {
+        padding: 32px;
+    }
+
+    .fieldset-wrapper {
+        gap: 24px;
+    }
+
+    .col-3 {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    footer {
+        padding: 24px;
+    }
+
+}

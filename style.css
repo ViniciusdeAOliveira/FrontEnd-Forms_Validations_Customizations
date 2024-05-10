@@ -9,6 +9,7 @@ body, input, textarea, select {
 }
 
 body {
+    padding-top: 1rem;
     background: #E5E5E5;
 }
 
